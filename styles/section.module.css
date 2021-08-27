@@ -1,0 +1,7 @@
+.container{
+    z-index: 1;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    padding-left: 80px;
+}
