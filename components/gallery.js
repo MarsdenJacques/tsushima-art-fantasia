@@ -1,5 +1,8 @@
 import styles from '../styles/gallery.module.css'
-import zihan from '../public/assets/zihan.jpg'
+import vid0 from '../public/assets/vid0.jpeg'
+import vid1 from '../public/assets/vid1.jpeg'
+import vid2 from '../public/assets/vid2.jpeg'
+import vid3 from '../public/assets/vid3.jpg'
 import Image from 'next/image'
 import { useState } from 'react'
 import galleryText from './gallery-assets'
@@ -9,10 +12,10 @@ export default function Gallery(){
     return(
         <div className = {styles.main}>
             <div className = {styles.imageGallery}>
-                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 0 ? setCurrentVideo(0) : setCurrentVideo(-1)}><Image src = {zihan} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=> currentVideo !== 1 ? setCurrentVideo(1) : setCurrentVideo(-1)}><Image src = {zihan} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 2 ? setCurrentVideo(2) : setCurrentVideo(-1)}><Image src = {zihan} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 3 ? setCurrentVideo(3) : setCurrentVideo(-1)}><Image src = {zihan} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 0 ? setCurrentVideo(0) : setCurrentVideo(-1)}><Image src = {vid0} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=> currentVideo !== 1 ? setCurrentVideo(1) : setCurrentVideo(-1)}><Image src = {vid1} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 2 ? setCurrentVideo(2) : setCurrentVideo(-1)}><Image src = {vid2} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 3 ? setCurrentVideo(3) : setCurrentVideo(-1)}><Image src = {vid3} width = {2667} height = {1775}/></div>
                 <div className = {styles.comingSoon}>More coming soon...</div>
             </div>
             <div className = {styles.vidGallery}>

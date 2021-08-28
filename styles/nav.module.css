@@ -33,3 +33,13 @@
     background-color: rgb(57,181,74);
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: row;
+        width: 100vw;
+        height: 60px;
+    }
+    .navSection{
+        writing-mode: horizontal-tb;
+    }
+}
