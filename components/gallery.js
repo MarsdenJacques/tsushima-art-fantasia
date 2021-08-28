@@ -8,14 +8,15 @@ import { useState } from 'react'
 import galleryText from './gallery-assets'
 
 export default function Gallery(){
-    const [currentVideo, setCurrentVideo] = useState(-1)
+    const [currentVideo, setCurrentVideo] = useState(0)//-1 currentVideo !== 0 ? setCurrentVideo(0) : setCurrentVideo(-1)
+    console.log(currentVideo)
     return(
         <div className = {styles.main}>
             <div className = {styles.imageGallery}>
-                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 0 ? setCurrentVideo(0) : setCurrentVideo(-1)}><Image src = {vid0} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=> currentVideo !== 1 ? setCurrentVideo(1) : setCurrentVideo(-1)}><Image src = {vid1} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 2 ? setCurrentVideo(2) : setCurrentVideo(-1)}><Image src = {vid2} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>currentVideo !== 3 ? setCurrentVideo(3) : setCurrentVideo(-1)}><Image src = {vid3} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=> setCurrentVideo(0)}><Image src = {vid0} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(1)}><Image src = {vid1} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(2)}><Image src = {vid2} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(3)}><Image src = {vid3} width = {2667} height = {1775}/></div>
                 <div className = {styles.comingSoon}>More coming soon...</div>
             </div>
             <div className = {styles.vidGallery}>
