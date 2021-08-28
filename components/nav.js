@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Nav({currentSection, scrollTo}){
     return(
         <div className = {styles.container}>
-            <NavSection title = 'Home' active = {currentSection === 0} scrollTo = {scrollTo}/>
+            <NavSection title = 'Home' active = {currentSection === 0 || currentSection === -1} scrollTo = {scrollTo}/>
             <NavSection title = 'Works' active = {currentSection === 1} scrollTo = {scrollTo}/>
         </div>
     )
