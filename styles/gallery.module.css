@@ -4,6 +4,8 @@
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .vidIFrame{
     position: absolute;
@@ -11,41 +13,47 @@
     left: 0;
     width: 100%;
     height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .vidGallery{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 100%;
+    /*grid-template-columns: 20% 60% 20%;*/
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 1fr;
     gap: 0px;
     width: 80vw;
     height: 100%;
     background-color: white;
-    border: 1px rgb(57,181,74) solid;
+    border-block: 1px rgb(57,181,74) solid;
 }
 .vidTextContainer{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
+    border: 1px rgb(57,181,74) solid;
+    border-top: none;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 .vidTitle{
-    height: 80px;
+    min-height: 80px;
     width: 100%;
-    border: 1px rgb(57,181,74) solid;
+    border-bottom: 1px rgb(57,181,74) solid;
+    border-top: 1px rgb(57,181,74) solid;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px 5px 5px 5px;
 }
 .vidArtistContainer{
-    height: 80px;
-    border: 1px rgb(57,181,74) solid;
+    min-height: 80px;
     display: flex;
     flex-direction: row;
 }
 .vidArtist1{
     flex: 0 1 auto;
-    border: 1px rgb(57,181,74) solid;
     padding-inline: 20px;
     padding-block: 5px;
     display: flex;
@@ -54,11 +62,11 @@
 }
 .vidArtist2{
     flex: 1 1 auto;
-    border: 1px rgb(57,181,74) solid;
+    border-inline: 1px rgb(57,181,74) solid;
 }
 .vidDescription{
     height: 100%;
-    border: 1px rgb(57,181,74) solid;
+    border-top: 1px rgb(57,181,74) solid;
     flex:1;
     display: flex;
     justify-content: center;
@@ -88,7 +96,7 @@
     align-items: center;
 }
 .galleryImage:hover{
-    border:2px rgb(57,181,74) solid;
+    outline:2px rgb(57,181,74) solid;
 }
 .main{
     display: flex;

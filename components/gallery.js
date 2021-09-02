@@ -9,14 +9,13 @@ import galleryText from './gallery-assets'
 
 export default function Gallery(){
     const [currentVideo, setCurrentVideo] = useState(0)//-1 currentVideo !== 0 ? setCurrentVideo(0) : setCurrentVideo(-1)
-    console.log(currentVideo)
     return(
         <div className = {styles.main}>
             <div className = {styles.imageGallery}>
-                <div  className = {styles.galleryImage} onClick = {()=> setCurrentVideo(0)}><Image src = {vid0} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(1)}><Image src = {vid1} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(2)}><Image src = {vid2} width = {2667} height = {1775}/></div>
-                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(3)}><Image src = {vid3} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=> setCurrentVideo(0)}><Image alt = 'The Whistle' src = {vid0} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(1)}><Image alt = 'Find dad in Samman-ri' src = {vid1} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(2)}><Image alt = 'Day and Night of District' src = {vid2} width = {2667} height = {1775}/></div>
+                <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(3)}><Image alt = 'This Beauty Deserves a More Dramatic Song' src = {vid3} width = {2667} height = {1775}/></div>
                 <div className = {styles.comingSoon}>More coming soon...</div>
             </div>
             <div className = {styles.vidGallery}>
@@ -28,7 +27,7 @@ export default function Gallery(){
                         <div className = {styles.vidArtist1}>
                             {currentVideo >= 0 && galleryText[0][currentVideo][1]}
                         </div>
-                        <div className = {styles.vidArtist2}>
+                        <div className = {styles.vidArtist2} style = {{borderRight: 'none'}}>
                         </div>
                     </div>
                     <div className = {styles.vidDescription}>
@@ -54,7 +53,7 @@ export default function Gallery(){
                         {currentVideo >= 0 && galleryText[1][currentVideo][0]}
                     </div>
                     <div className = {styles.vidArtistContainer}>
-                        <div className = {styles.vidArtist2}>
+                        <div className = {styles.vidArtist2} style = {{borderLeft: 'none'}}>
                         </div>
                         <div className = {styles.vidArtist1}>
                             {currentVideo >= 0 && galleryText[1][currentVideo][1]}

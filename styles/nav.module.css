@@ -37,9 +37,10 @@
     .container{
         flex-direction: row;
         width: 100vw;
-        height: 60px;
+        height: 40px;
     }
     .navSection{
         writing-mode: horizontal-tb;
+        font-size: 14px;
     }
 }

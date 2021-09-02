@@ -23,7 +23,7 @@ export default function Home() {
     return () => { observer.disconnect() }
   }, [])
   function scrollToAnchor(selectedAnchor) {
-    const element = selectedAnchor === '/#Home' ? ref1 : ref2
+    const element = selectedAnchor === '/#対馬アートファンタジア' ? ref1 : ref2
     if(element.current !== undefined){
       element.current.scrollIntoView({
         behavior: 'smooth'
@@ -34,8 +34,8 @@ export default function Home() {
     <div className = {styles.main}>
       <Nav currentSection = {currentSection} scrollTo = {scrollToAnchor}/>
       <BGText/>
-      <div ref = {ref1}><Section name = {'Home'}><Landing/></Section></div>
-      <div ref = {ref2}><Section name = {'Works'}><Gallery/></Section></div>
+      <div ref = {ref1}><Section name = {'対馬アートファンタジア'}><Landing/></Section></div>
+      <div ref = {ref2}><Section name = {'Artists'}><Gallery/></Section></div>
     </div>
   )
 }
