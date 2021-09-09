@@ -44,7 +44,20 @@ const galleryText = [
 ' deeply affected by settler-colonial actions in Canada and Hokkaido.\n'+
 'Ultimately, what does it mean to have sight taken by nature and to take sight of nature? And how'+
 ' does fueling the desire to see a landscape differ from constructing a road right through it?'+
-' Developed on invitation by and with the great support of Sapporo Tenjinyama Art Studio']],
+' Developed on invitation by and with the great support of Sapporo Tenjinyama Art Studio'],
+['Go Back to the Roots','Joydeb Roaja',
+'The roots not only stand the trees but also supply nutrition to make them fully developed.' + 
+' Humankind also develops spontaneously by its roots which are history, tradition, culture and heritage. Those roots differ by the topography of the land, we called it “ভ""িম পু” (son of　the soil). The connection between us and the soil is deep, intimate, and spiritual. Local' +
+' context is an invaluable resource, but nowadays the roots were uprooted in the name of “globalization”. Every day minor languages and cultures are extinguished.'+
+' Bengal culture has a tendency to self-taught rather than schooling, including famous poet Rabindranath Tagore, Kazi Nazrul Islam, Lalon Shah all were educated by themselves.We see humanity shine in Lalon/’s song. But today in South Asia, one/’s identity is determined by religion, people attack the other beliefs by the name of religion. What kind of humanity is practicing?'+
+' We have to go back to the root, which is liberation, world peace.'+
+' We have to go back to our roots to bring back our dignity and rights.'+
+' This work is a visual reflection of my life.'],
+['Can We Do Performance without a Body','Fiona Cheng',
+'A practice of a collective performance “Can We” took place in the hill village Dhankuta,'+
+' Nepal in 2018. It started with the question “Can We Do Performance without a Body” while most participants were either non-artist or from foreign countries. This document tries to sketch a scene of intercultural, interlingual conversation.'],
+['A Silent Song From Wrapped Expansion (Three Chapters)','Zihan Karim ',
+'Anyang is a small city in South Korea that has contrasting forms of lifestyle between different ages. Everything is automated, well lifestyled and the city is full of green and architecture. The three chapters: Water World, Wrapped Stories, I See You, these short moving images show the ecosystem of life in Anyang. That I felt the loneliness and an absurd relation between human, nature, and machine. Like a thin red thread of emotions among all those fragmented stories.']],
 [['「The Whistle」','ボラシ・ポッタチャルジー','その音は、私たちの息遣いから生まれた音です。息には国境も意味もありません。'+
 ' ただ鳴っているだけです。それは私たちが生きていることを証明してくれます。言葉や肌の色、職業'+
 ' などは関係ありません。私たちはここにいて、宇宙の一部なのです。私たちの愛らしい息遣いから来'+
@@ -80,7 +93,18 @@ const galleryText = [
 ' が大雪山の荒涼とした風景の中に迷い込み、愛を探す姿\n'+
 '招かれざるものとして監督は、カナダと北海道の入植者による植民地支配の影響を色濃く受けた記憶、'+
 ' 記録、風景を旅します\n'+
-'自然に目を奪われ、自然を目に']]
+'自然に目を奪われ、自然を目に'],
+['Go Back to the Roots','ジョイデブ・ロアジャ',
+'根は木を立たせるだけでなく、木に栄養を供給し十全にそれを発達させます。'+
+' 人類もまた、歴史、伝統、文化、遺産といった根によって、自然に発展していきます。その根の在り方は土地の形によって異なるもので、私たちはそれを「ভম পু’」（Bhamapu/土の息子）と呼びます）私たちと土とのつながりは深く親密で精神的なものです。こうしたローカルなコンテクストは、かけがえのない資源ですが、今では「グローバリゼーション」の名のもとに晒されることで、日々、マイナーな言語や文化が消滅しています。'+
+' ベンガルの文化は、学校教育よりも独学によるところが大きく、有名な詩人の、ラビンドラナート・タゴール、カジ・ナズル・イスラム、ラロン・シャーなどは独学で学んだ人です。例えば、ラロンの歌には煌めくような人間性を見ることができます。しかし、今日の南アジアでは、アイデンティティは宗教によって決定され、人々は宗教の名の下に他の信仰を攻撃しています。人間性とは、あるいはその実践とは何なのでしょうか？'+
+' 私たちは根本に立ち返らなければなりません。それは解放であり、世界平和です。私たちの尊厳と権利を取り戻すために、ルーツに戻らなければならないのです。'+
+' この作品は、私の人生を視覚的に反映したものです。'],
+['Can We Do Performance without a Body','フィオナ・チャン',
+'丘の上の村「ダンクタ」で行われた集団パフォーマンス「Can We」の練習風景。'+
+' 2018年のネパール。それは「身体がなくてもパフォーマンスはできるのか」という問いかけから始まったもので、参加者のほとんどは、アーティストではない人か、外国人でした。このドキュメントは、異なる文化や異なる言語間で取り交わされる会話のスケッチを試みたものです。'],
+['A Silent Song From Wrapped Expansion (Three Chapters)','ジハン・カリム',
+'安養は韓国の小さな都市で、異なる世代の対照的なライフスタイルが混在しています。すべてが自動化され、生活様式が整っており、街には緑と建築物があふれています。ここでは、「Water World」「Wrapped Stories」「I See You」という3つのチャプターを紹介します。これらの短い動画が、安養での生活の生態系を示しています。私が感じたのは、人間と自然と機械の間にある孤独と不条理な関係でした。断片化された物語の中には、細い赤い糸のような感情があります。']]
 ]
 
 export default galleryText

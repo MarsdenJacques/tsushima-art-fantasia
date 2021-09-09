@@ -11,17 +11,19 @@
     padding: 60px 60px 60px 60px;
     border: 1px rgb(57,181,74) solid;
 }
+.imageVessel{
+    animation-name: imageAnimation;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+}
 .imageContainer{
     overflow: hidden;
     width: 100%;
     height: auto;
-    position: absolute;
     top: 0;
     left: 0;
-    animation-name: imageAnimation;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 .textContainer{
     position: absolute;
@@ -94,5 +96,5 @@
 }
 @keyframes imageAnimation{
     from{transform: translateY(-100%);}
-    to{transform: translateY(calc(200% + 95vh));}
+    to{transform: translateY(100%);}
 }

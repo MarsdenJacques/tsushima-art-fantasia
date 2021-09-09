@@ -10,21 +10,21 @@ export default function Home() {
   const [currentSection, setCurrentSection] = useState(-1)
   const ref1 = useRef()
   const ref2 = useRef()
-  console.log(currentSection)
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {if(entry.isIntersecting)setCurrentSection(0)}, {threshold: .1})
+    const observer = new IntersectionObserver(([entry]) => {if(entry.isIntersecting)setCurrentSection(0)}, {threshold: .25})
     observer.observe(ref1.current)
     // Remove the observer as soon as the component is unmounted
     return () => { observer.disconnect() }
   }, [])
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {if(entry.isIntersecting)setCurrentSection(1)}, {threshold: .1})
+    const observer = new IntersectionObserver(([entry]) => {if(entry.isIntersecting)setCurrentSection(1)}, {threshold: .25})
     observer.observe(ref2.current)
     // Remove the observer as soon as the component is unmounted
     return () => { observer.disconnect() }
   }, [])
   function scrollToAnchor(selectedAnchor) {
     const element = selectedAnchor === '/#対馬アートファンタジア' ? ref1 : ref2
+    setCurrentSection(selectedAnchor === '/#対馬アートファンタジア' ? 0 : 1)
     if(element.current !== undefined){
       element.current.scrollIntoView({
         behavior: 'smooth'
