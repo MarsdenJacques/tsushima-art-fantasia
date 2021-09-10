@@ -6,6 +6,10 @@ import vid3 from '../public/assets/vid3.jpg'
 import vid4 from '../public/assets/vid4.jpg'
 import vid5 from '../public/assets/vid5.jpg'
 import vid6 from '../public/assets/vid6.jpg'
+import vid7 from '../public/assets/vid7.jpg'
+import vid8 from '../public/assets/vid8.jpg'
+import vid9 from '../public/assets/vid9.jpg'
+import vid10 from '../public/assets/vid10.jpg'
 import Image from 'next/image'
 import { useState } from 'react'
 import galleryText from './gallery-assets'
@@ -25,6 +29,10 @@ export default function Gallery(){
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(4)}><Image alt = 'Go Back to the Roots' src = {vid4} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(5)}><Image alt = 'Can We Do Performance without a Body' src = {vid5} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(6)}><Image alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' src = {vid6} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(7)}><Image alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' src = {vid7} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(8)}><Image alt = 'WE ARE THE WORLD [short edit]' src = {vid8} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(9)}><Image alt = 'Approach 11.0' src = {vid9} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(10)}><Image alt = 'Crossing Tides' src = {vid10} width = {2667} height = {1775}/></div>
                 </div>
                 <div className = {styles.imageVessel} style = {{animationDelay: '-25s',animationPlayState: animationPlaying}}>
                     <div  className = {styles.galleryImage} onClick = {()=> setCurrentVideo(0)}><Image alt = 'The Whistle' src = {vid0} width = {2667} height = {1775}/></div>
@@ -34,6 +42,10 @@ export default function Gallery(){
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(4)}><Image alt = 'Go Back to the Roots' src = {vid4} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(5)}><Image alt = 'Can We Do Performance without a Body' src = {vid5} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(6)}><Image alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' src = {vid6} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(7)}><Image alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' src = {vid7} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(8)}><Image alt = 'WE ARE THE WORLD [short edit]' src = {vid8} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(9)}><Image alt = 'Approach 11.0' src = {vid9} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(10)}><Image alt = 'Crossing Tides' src = {vid10} width = {2667} height = {1775}/></div>
                 </div>
             </div>
             <div className = {styles.vidGallery}>
@@ -74,6 +86,18 @@ export default function Gallery(){
                     {
                         currentVideo === 6 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/nInFmkGN_vQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     }
+                    {
+                        currentVideo === 7 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/KhM3VokrqtU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 8 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/z4ofigD6_Qc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 9 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/DjxzFZNpak8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 10 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/LNgfjtxZJW0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
                 </div>
                 <div className = {styles.vidTextContainer}>
                     <div className = {styles.vidTitle}>
@@ -90,6 +114,18 @@ export default function Gallery(){
                         {currentVideo >= 0 && galleryText[1][currentVideo][2]}
                     </div>
                 </div>
+            </div>
+            <div className = {styles.artists}>
+                {
+                    galleryText[0].map((text,index) => {
+                        return(
+                            <div key = {index} className = {styles.artist}>
+                                <div className = {styles.artistText}>{text[1]}</div>
+                                <div className = {styles.artistText}>{galleryText[1][index][1]}</div>
+                            </div>
+                        )
+                    })
+                }
             </div>   
         </div>
     )

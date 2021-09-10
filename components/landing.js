@@ -7,6 +7,10 @@ import vid3 from '../public/assets/home3.png'
 import vid4 from '../public/assets/home4.png'
 import vid5 from '../public/assets/home5.png'
 import vid6 from '../public/assets/home6.png'
+import vid7 from '../public/assets/home7.png'
+import vid8 from '../public/assets/home8.png'
+import vid9 from '../public/assets/home9.png'
+import vid10 from '../public/assets/home10.png'
 export default function Landing(){
     const jpText = 'イ・イェジン/イ・ナリム/うらあやか/ウンディネ ゾマー/小笠原周/キム・ギュニョン/キム・ドキ/キム・ボギョン/黒田大スケ/ジハン・カリム/ジョイデブ　ロアジャ/ジョン・ユスン/西松秀祐/パク・ハヨン/潘逸舟/フィオナ・チェン/張小船/ボラシ・ポッタチャルジー/丸橋光生/迎英里子/山内光枝/row&row'
     const engText = 'Yejin Stephany Lee/Narim Lee/Ayaka Ura/Undine Sommer/Shu Ogasawara/Kyu Nyun Kim/Doki Kim/Bokyong Kim/Daisuke Kuroda/Zihan Karim/Joy Deb Roaja/Yooseung Jung/Shusuke Nishimatsu/Park Hwa Yeon/Ishu Han/Fiona Cheng/Boat ZHANG/Palash Bhattacharjee/Mitsuo Maruhashi/Eriko Mukai/Terue Yamauchi/row&row'
@@ -75,6 +79,18 @@ export default function Landing(){
                     <div className = {styles.imageContainer}>
                         <Image src={vid6} alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' width = {1920} height = {1080}/>
                     </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid7} alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid8} alt = 'WE ARE THE WORLD [short edit]' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid9} alt = 'Approach 11.0' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}/>
+                    </div>
                 </div>
                 <div className = {styles.imageVessel}  style = {{animationDelay: '-50s'}}>
                     <div className = {styles.imageContainer}>
@@ -97,6 +113,18 @@ export default function Landing(){
                     </div>
                     <div className = {styles.imageContainer}>
                         <Image src={vid6} alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid7} alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid8} alt = 'WE ARE THE WORLD [short edit]' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid9} alt = 'Approach 11.0' width = {1920} height = {1080}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}/>
                     </div>
                 </div>
             </div>

@@ -57,7 +57,37 @@ const galleryText = [
 'A practice of a collective performance “Can We” took place in the hill village Dhankuta,'+
 ' Nepal in 2018. It started with the question “Can We Do Performance without a Body” while most participants were either non-artist or from foreign countries. This document tries to sketch a scene of intercultural, interlingual conversation.'],
 ['A Silent Song From Wrapped Expansion (Three Chapters)','Zihan Karim ',
-'Anyang is a small city in South Korea that has contrasting forms of lifestyle between different ages. Everything is automated, well lifestyled and the city is full of green and architecture. The three chapters: Water World, Wrapped Stories, I See You, these short moving images show the ecosystem of life in Anyang. That I felt the loneliness and an absurd relation between human, nature, and machine. Like a thin red thread of emotions among all those fragmented stories.']],
+'Anyang is a small city in South Korea that has contrasting forms of lifestyle between different ages. Everything is automated, well lifestyled and the city is full of green and architecture. The three chapters: Water World, Wrapped Stories, I See You, these short moving images show the ecosystem of life in Anyang. That I felt the loneliness and an absurd relation between human, nature, and machine. Like a thin red thread of emotions among all those fragmented stories.'],
+['This is Tsushima / It’s night here /  I see waves / I see lights','Mitsuo Maruhashi',
+'This video footage is not a CG, This is a live-action. In this video, the words ""Tsushima,"" ""Night,"" ""Wave,"" and ""Light"" appear on the screen and flicker.\n'+
+'\n'+
+'For example, when you see separately “light” itself and a word “light”, you don’t have any strangeness in your recognition. But if both visual and language are juxtaposed and you look both at the same time, viewer might confuse.  I am interested in this small crash of recognition.'],
+['WE ARE THE WORLD [short edit]','Ayaka Ura',
+'Kotobuki-cho (*1) in Yokohama City is a ""doya"" area ( flophouse area ). It is close to the central area of Yokohama, and has recently been attracting people from outside the area due to the availability of cheap lodging. The area is mostly populated by elderly people living on pensions, but there are also a few children living there, and there is a kindergarten in front of the park where the soup kitchen is held.\n'+
+'\n'+
+'In October 2016, I stayed there for 10 days as a participant in an art and welfare program organized by the city of Yokohama. I stayed in a “doya” area and had a presentation at a same area. “IN A DOYA AREA” due to a unique place, I got a feeling of both inclusion and exclusion. So, I decided not being as an observer, to bring in some kind of cause or happening. The idea was to start a band or a chorus group, and I recruited people with experience. In the process, we practiced singing ""We Are The World"" (*2). One of the members, Mr. S, seemed to be in a metal band without a drummer.\n'+
+'\n'+
+'*1) Here\'s what they\'ve been up to lately: https://wasegg.com/archives/2178\n'+
+'\n'+
+'*2) ""We Are The World"" is a campaign song released in the U.S. in 1985 with the aim of eliminating hunger and poverty in Africa, and was completed by a group of famous artists who came together as ""USA for Africa"".'],
+['Approach 11.0','Eriko Mukai',
+'I had never thought deeply about employment regulations before, but there was an event that I had to think about. So I created a performance which focused on ""labor"".\n'+
+'\n'+
+'Several element of labor, such as working hours, periods of working, Wage payment, and changes in labor employment rules,  I reconstructed into performance practice,  using capsules, marbles, timers, and moving rooms.'],
+['Crossing Tides','Terue Yamauchi',
+'“I wish I could dive and explore my ancestral sea off Kanezaki…”\n'+
+'\n'+
+'says an 82 year-old woman who is one of the last remaining ama — free-diving fisherwomen'+
+'in the village of Magari located on the east coast of Tsushima Island floating in the strait between the Japanese archipelago and the Korean Peninsula.\n'+
+'\n'+
+'For hundreds of years, Magari was the only village in Tsushima granted with a privilege to operate freely in the waters all around the island. Their ancestors are believed to be originated from ancient Chikuzen Kanegasaki, the current village of Kanezaki in Fukuoka Prefecture located on the other shore of the strait some hundreds years ago.\n'+
+'\n'+
+'Nearly a decade has passed since I encountered with the world of sea women where the purity and muddiness of life are intertwined in its own dynamic ways. As I sensed the tide has come now, we decided to let ourselves go with the flow and cross the strait together to Kanezaki; her ancestral root and the origin of my work.\n'+
+'\n'+
+'While I devote myself to capturing her entire homecoming journey beyond generations all the way into the waters involving interaction of people evoked by the sea, and current environmental conditions and issues revealed in dialogues, I, at the same time, hoped to be the one living the irreplaceable moment with her.\n'+
+'\n'+
+'Terue Yamauchi 2018'],
+],
 [['「The Whistle」','ボラシ・ポッタチャルジー','その音は、私たちの息遣いから生まれた音です。息には国境も意味もありません。'+
 ' ただ鳴っているだけです。それは私たちが生きていることを証明してくれます。言葉や肌の色、職業'+
 ' などは関係ありません。私たちはここにいて、宇宙の一部なのです。私たちの愛らしい息遣いから来'+
@@ -104,7 +134,42 @@ const galleryText = [
 '丘の上の村「ダンクタ」で行われた集団パフォーマンス「Can We」の練習風景。'+
 ' 2018年のネパール。それは「身体がなくてもパフォーマンスはできるのか」という問いかけから始まったもので、参加者のほとんどは、アーティストではない人か、外国人でした。このドキュメントは、異なる文化や異なる言語間で取り交わされる会話のスケッチを試みたものです。'],
 ['A Silent Song From Wrapped Expansion (Three Chapters)','ジハン・カリム',
-'安養は韓国の小さな都市で、異なる世代の対照的なライフスタイルが混在しています。すべてが自動化され、生活様式が整っており、街には緑と建築物があふれています。ここでは、「Water World」「Wrapped Stories」「I See You」という3つのチャプターを紹介します。これらの短い動画が、安養での生活の生態系を示しています。私が感じたのは、人間と自然と機械の間にある孤独と不条理な関係でした。断片化された物語の中には、細い赤い糸のような感情があります。']]
+'安養は韓国の小さな都市で、異なる世代の対照的なライフスタイルが混在しています。すべてが自動化され、生活様式が整っており、街には緑と建築物があふれています。ここでは、「Water World」「Wrapped Stories」「I See You」という3つのチャプターを紹介します。これらの短い動画が、安養での生活の生態系を示しています。私が感じたのは、人間と自然と機械の間にある孤独と不条理な関係でした。断片化された物語の中には、細い赤い糸のような感情があります。'],
+['丸橋光生','丸橋光生',
+'この映像はCGではなく、実写の映像です。画面上に「対馬」「夜」「波」「光」の文字が現れ、明滅しています。'+
+' 例えばヴィジュアルとして見る「光」と、文字の「光」は、別々に見て、認識する際には何の違和感もありませんが、それが併置され、同時に脳に情報が送られる時、ささやかな衝突が起き、その衝突が私には奇妙で面白く感じられます。'],
+['うらあやか','うらあやか',
+'横浜市寿町(*1)は、ドヤ街だ。横浜の中心地区にほど近いこともあり、最近では格安の簡易宿泊所として外からも人が訪れる。年金で暮らす高齢者がほとんどだが子供も暮らしており、炊き出しなどを行う公園のまえには幼稚園がある。\n'+
+'\n'+
+' 2016年10月、横浜市関連事業による芸術と福祉のアートプログラム参加し、10日間の滞在を行った。ドヤに泊まり、ドヤの中で成果発表を行う。ドヤで！という特異な場所としてのプレゼンテーションに思えて、包摂と排除のどちらもを感じる。観察者としてでなく、何かのきっかけを持ち込むことをしようと思った。バンドかコーラスグループをやるというアイディアの元メンバー募集を行い、その過程で「We Are The World」(*2)を歌う練習をした。メンバーのSさんは、ドラマー不在のメタルバンドを組んでいるらしかった。\n'+
+'\n'+
+' *1)最近の状況はこんな様子らしい　https://wasegg.com/archives/2178 \n'+
+'\n'+
+' *2)「We Are The World」は1985年にアメリカで発売されたアフリカの飢餓と貧困層を解消する目的で作られたキャンペーンソングで、著名なアーティストが「USAフォー・アフリカ」として集結して完成させた。'],
+['迎 英里子','迎 英里子',
+'転職した際、恥ずかしながらこれまで雇用規則など深く考えたことはなかったが、考えなければいけない出来事があり、「労働」をモチーフにしたパフォーマンスを制作した。'+
+' 労働時間・期間、賃金の支払い、労働就労規則の変更を、カプセル・ビー玉・タイマー・部屋の移動などを用いて再構成している。'],
+['山内光枝','山内光枝',
+'「鐘崎の海で潜(かつ)いでみたいね。」\n'+
+'\n'+
+'対馬の東海岸に位置する海民の村、曲(まがり)。'+
+' その最後の現役海女ともいえる８２歳のおばちゃんが'+
+' 時折ひとりごとのようにつぶやいていた。\n'+
+'\n'+
+'永い間、対馬一円の海を自由に操業できる'+
+' 島では唯一の専業漁民であった曲の海人。'+
+' その先人は数百年の昔、筑前鐘ヶ崎、'+
+' 現在の福岡県宗像市鐘崎から渡ってきたといわれている。\n'+
+'\n'+
+'海とともに暮らす女性たちの清も濁も生き生きと交わり流れる世界に出逢っておよそ８年。少しずつ積み重ねてきたものが今、ひとつの潮時を向かえ、'+
+' 私たちはその流れに身をまかせるように海峡を渡り、'+
+' それぞれの原点、原郷である鐘崎へと向かった。'+
+' おばちゃんの呟きをきっかけに動き出した旅は、数百年前のではなく、'+
+' 今生きているものたちの海路を見つけるための必然的な一歩となった。\n'+
+'\n'+
+'道中、作り手として機材を手にその過程を捉ようと試みながら、'+
+' 同時に、そのかけがえのない時間を生きる当事者でありたいと願った。'],
+]
 ]
 
 export default galleryText
