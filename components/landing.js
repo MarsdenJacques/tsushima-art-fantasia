@@ -59,72 +59,72 @@ export default function Landing(){
             <div className = {styles.imageTray}>
                 <div className = {styles.imageVessel}>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid0} alt = 'The Whistle' width = {1920} height = {1080}/>
+                        <Image src={vid0} alt = 'The Whistle' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid1} alt = 'Find dad in Samman-ri' width = {1920} height = {1080}/>
+                        <Image src={vid1} alt = 'Find dad in Samman-ri' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid2} alt = 'Day and Night of District' width = {1920} height = {1080}/>
+                        <Image src={vid2} alt = 'Day and Night of District' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid3} alt = 'This Beauty Deserves a More Dramatic Song' width = {1920} height = {1080}/>
+                        <Image src={vid3} alt = 'This Beauty Deserves a More Dramatic Song' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid4} alt = 'Go Back to the Roots' width = {1920} height = {1080}/>
+                        <Image src={vid4} alt = 'Go Back to the Roots' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid5} alt = 'Can We Do Performance without a Body' width = {1920} height = {1080}/>
+                        <Image src={vid5} alt = 'Can We Do Performance without a Body' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid6} alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' width = {1920} height = {1080}/>
+                        <Image src={vid6} alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid7} alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' width = {1920} height = {1080}/>
+                        <Image src={vid7} alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid8} alt = 'WE ARE THE WORLD [short edit]' width = {1920} height = {1080}/>
+                        <Image src={vid8} alt = 'WE ARE THE WORLD [short edit]' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid9} alt = 'Approach 11.0' width = {1920} height = {1080}/>
+                        <Image src={vid9} alt = 'Approach 11.0' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}/>
+                        <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}priority={true}/>
                     </div>
                 </div>
                 <div className = {styles.imageVessel}  style = {{animationDelay: '-50s'}}>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid0} alt = 'The Whistle' width = {1920} height = {1080}/>
+                        <Image src={vid0} alt = 'The Whistle' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid1} alt = 'Find dad in Samman-ri' width = {1920} height = {1080}/>
+                        <Image src={vid1} alt = 'Find dad in Samman-ri' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid2} alt = 'Day and Night of District' width = {1920} height = {1080}/>
+                        <Image src={vid2} alt = 'Day and Night of District' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid3} alt = 'This Beauty Deserves a More Dramatic Song' width = {1920} height = {1080}/>
+                        <Image src={vid3} alt = 'This Beauty Deserves a More Dramatic Song' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid4} alt = 'Go Back to the Roots' width = {1920} height = {1080}/>
+                        <Image src={vid4} alt = 'Go Back to the Roots' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid5} alt = 'Can We Do Performance without a Body' width = {1920} height = {1080}/>
+                        <Image src={vid5} alt = 'Can We Do Performance without a Body' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid6} alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' width = {1920} height = {1080}/>
+                        <Image src={vid6} alt = 'A Silent Song From Wrapped Expansion (Three Chapters)' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid7} alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' width = {1920} height = {1080}/>
+                        <Image src={vid7} alt = 'This is Tsushima / It’s night here /  I see waves / I see lights' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid8} alt = 'WE ARE THE WORLD [short edit]' width = {1920} height = {1080}/>
+                        <Image src={vid8} alt = 'WE ARE THE WORLD [short edit]' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid9} alt = 'Approach 11.0' width = {1920} height = {1080}/>
+                        <Image src={vid9} alt = 'Approach 11.0' width = {1920} height = {1080}priority={true}/>
                     </div>
                     <div className = {styles.imageContainer}>
-                        <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}/>
+                        <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}priority={true}/>
                     </div>
                 </div>
             </div>
