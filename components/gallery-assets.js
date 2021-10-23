@@ -87,6 +87,15 @@ const galleryText = [
 'While I devote myself to capturing her entire homecoming journey beyond generations all the way into the waters involving interaction of people evoked by the sea, and current environmental conditions and issues revealed in dialogues, I, at the same time, hoped to be the one living the irreplaceable moment with her.\n'+
 '\n'+
 'Terue Yamauchi 2018'],
+['Level Flight - Butterfly\'s Eye','Bokyong Kim',
+'While walking aimlessly, the butterfly was with me. I followed the movement of the butterfly,  questioning the gaze that looked at the same path with different eyes.  The world thus discovered showed that nothing could be seen completely  in a relationship that was viewed and shown for granted.'],
+['Umi no Suki','Takashi Sonoda',
+'I lay down at the shorefronts, observing the waves and waiting for low tide. In this film, I am trying to transform myself into a seaweed.\n' +  
+'Originally, all plants came from the sea to the land. However, seaweed returned to the beach, due to the lost for survival competition on land.'],
+['Landscape Sketch','Shu Ogasawara',
+'My original character, which I’ve been used in my previous works, are moving around in the scenery of Tsushima. This character can be understood as my Avatar. It moves freely in the landscape. This can be functions as an act of recapturing the landscape through photography.'],
+['Removed Landscape','Ishu Han',
+'In Japan, there still exists land to which former residents have been unable to return since the Great East Japan Earthquake (zones where access is restricted due to contamination with radiation). Han’s new work titled “Removed Landscape” is a video of a wriggling black bag taken from the air. Within the bag, which appears to be blown about by the wind at first glance, is Han himself, rolling around. Known as “flexible container bags,” bags of this type are used for the collection and storage of soil contaminated with radioactive substances that scattered due to the catastrophe at the Fukushima nuclear power plant. Workers cut away the top layer of soil that was part of the landscape which remains in the memories of people who used to live in the affected area, and put it into these bags. They are now in temporary storage in the affected area, and will eventually be hauled away to a place where they will be out of sight. Using his own body in alluding to the migration of soil and people that have been removed, Han continues to explore places that have become absent inside us.'],
 ],
 [['「The Whistle」','ボラシ・ポッタチャルジー','その音は、私たちの息遣いから生まれた音です。息には国境も意味もありません。'+
 ' ただ鳴っているだけです。それは私たちが生きていることを証明してくれます。言葉や肌の色、職業'+
@@ -169,6 +178,22 @@ const galleryText = [
 '\n'+
 '道中、作り手として機材を手にその過程を捉ようと試みながら、'+
 ' 同時に、そのかけがえのない時間を生きる当事者でありたいと願った。'],
+['Level Flight - Butterfly\'s Eye','キム・ボギョン',
+'あてもなく歩いていると蝶がひらひらと飛んでいた\n' + 
+'蝶の動きを追いかけているうちに、同じ道を別々の視点で見ていることが不思議に思えた\n'+
+'そこでわかったのは、見る、見られるという、当たり前の関係の中でさえ、世界は不完全に揺らいでいることだった'],
+['海の隙','園田昂史',
+'本作で私は海草に変身することを試みています。もともとすべての植物は海から陸に上がってきました。海草は陸上での生存競争に敗れ、再び砂浜に戻ってきた植物のことです。\n'+
+'私は波打ち際に身を伏せ、波の様子を観察し、いつか引くであろう海を待ち続けました。'],
+['風景のスケッチ','小笠原周',
+'対馬アートファンタジアへの参加が決まり、1度目に数日間対馬に滞在をした際に、山に登ったり、岩肌むき出しの海岸を歩いたりしました。その時は対馬の風景に圧倒され、スマホで写真を撮る事で精一杯でした。\n'+
+'一度京都に帰り、滞在制作のために再び対馬に訪れる時には、風景をしっかり捉え、どうにか作品にしてやろうと意気込んでいました。そこで行ったのが風景のスケッチでした。スケッチをする時には、直射日光や、虫刺され、疲労感などに苛まれながらも、山や岩の位置関係や物質感の違いを描きとることに集中していました。\n'+
+'スケッチを後日見直した時には、そこで見た風景よりも、そこで体感した暑さや痒さ、音などが思い出されました、対して写真を見た時には、景色の視覚的な印象を思い出すような感覚があります。\n'+
+'しかしこの映像作品を制作する時、写真や映像にキャラクターを描き込んでいく作業の中では、その中にある構造（山の傾斜や、岩の段差、水面の位置など）にフォーカスしている自分に気がつきます。\n'+
+'それは、客観的に写真に写る風景を見る行為になったのではないかと考えます。\n'+
+'この作品は他者に、どんな風景として見えるのか？お楽しみください。'],
+['取り除かれた風景',' 潘 逸舟',
+''],
 ]
 ]
 

@@ -11,6 +11,10 @@ import vid7 from '../public/assets/home7.jpg'
 import vid8 from '../public/assets/home8.jpg'
 import vid9 from '../public/assets/home9.jpg'
 import vid10 from '../public/assets/home10.jpg'
+import vid11 from '../public/assets/home11.jpg'
+import vid12 from '../public/assets/home12.jpg'
+import vid13 from '../public/assets/home13.jpg'
+import vid14 from '../public/assets/home14.jpg'
 export default function Landing(){
     const jpText = 'イ・イェジン/イ・ナリム/うらあやか/ウンディネ ゾマー/小笠原周/キム・ギュニョン/キム・ドキ/キム・ボギョン/黒田大スケ/ジハン・カリム/ジョイデブ　ロアジャ/ジョン・ユスン/西松秀祐/パク・ハヨン/潘逸舟/フィオナ・チェン/張小船/ボラシ・ポッタチャルジー/丸橋光生/迎英里子/山内光枝/row&row'
     const engText = 'Yejin Stephany Lee/Narim Lee/Ayaka Ura/Undine Sommer/Shu Ogasawara/Kyu Nyun Kim/Doki Kim/Bokyong Kim/Daisuke Kuroda/Zihan Karim/Joy Deb Roaja/Yooseung Jung/Shusuke Nishimatsu/Park Hwa Yeon/Ishu Han/Fiona Cheng/Boat ZHANG/Palash Bhattacharjee/Mitsuo Maruhashi/Eriko Mukai/Terue Yamauchi/row&row'
@@ -91,6 +95,18 @@ export default function Landing(){
                     <div className = {styles.imageContainer}>
                         <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}priority={true}/>
                     </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid11} alt = 'Level Flight - Butterfly’s Eye' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid12} alt = 'Umi no Suki' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid13} alt = 'Landscape Sketch' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid14} alt = 'Removed Landscape' width = {1920} height = {1080}priority={true}/>
+                    </div>
                 </div>
                 <div className = {styles.imageVessel}  style = {{animationDelay: '-50s'}}>
                     <div className = {styles.imageContainer}>
@@ -125,6 +141,18 @@ export default function Landing(){
                     </div>
                     <div className = {styles.imageContainer}>
                         <Image src={vid10} alt = 'Crossing Tides' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid11} alt = 'Level Flight - Butterfly’s Eye' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid12} alt = 'Umi no Suki' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid13} alt = 'Landscape Sketch' width = {1920} height = {1080}priority={true}/>
+                    </div>
+                    <div className = {styles.imageContainer}>
+                        <Image src={vid14} alt = 'Removed Landscape' width = {1920} height = {1080}priority={true}/>
                     </div>
                 </div>
             </div>

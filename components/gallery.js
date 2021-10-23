@@ -10,6 +10,10 @@ import vid7 from '../public/assets/vid7.jpg'
 import vid8 from '../public/assets/vid8.jpg'
 import vid9 from '../public/assets/vid9.jpg'
 import vid10 from '../public/assets/vid10.jpg'
+import vid11 from '../public/assets/vid11.jpg'
+import vid12 from '../public/assets/vid12.jpg'
+import vid13 from '../public/assets/vid13.jpg'
+import vid14 from '../public/assets/vid14.jpg'
 import Image from 'next/image'
 import { useState } from 'react'
 import galleryText from './gallery-assets'
@@ -22,7 +26,7 @@ export default function Gallery(){
             <div className = {styles.imageGallery} onMouseEnter = {()=>setAnimationPlaying('paused')} onMouseLeave = {()=>setAnimationPlaying('running')}
             onTouchStart = {()=> setAnimationPlaying('paused')} onTouchEnd = {()=> setAnimationPlaying('running')}>
                 <div className = {styles.imageVessel} style = {{animationPlayState: animationPlaying}}>
-                    <div  className = {styles.galleryImage} onClick = {()=> setCurrentVideo(0)}><Image alt = 'The Whistle' src = {vid0} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(0)}><Image alt = 'The Whistle' src = {vid0} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(1)}><Image alt = 'Find dad in Samman-ri' src = {vid1} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(2)}><Image alt = 'Day and Night of District' src = {vid2} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(3)}><Image alt = 'This Beauty Deserves a More Dramatic Song' src = {vid3} width = {2667} height = {1775}/></div>
@@ -33,9 +37,13 @@ export default function Gallery(){
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(8)}><Image alt = 'WE ARE THE WORLD [short edit]' src = {vid8} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(9)}><Image alt = 'Approach 11.0' src = {vid9} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(10)}><Image alt = 'Crossing Tides' src = {vid10} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(11)}><Image alt = 'Level Flight - Butterfly’s Eye' src = {vid11} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(12)}><Image alt = 'Umi no Suki' src = {vid12} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(13)}><Image alt = 'Landscape Sketch' src = {vid13} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(14)}><Image alt = 'Removed Landscape' src = {vid14} width = {2667} height = {1775}/></div>
                 </div>
                 <div className = {styles.imageVessel} style = {{animationDelay: '-25s',animationPlayState: animationPlaying}}>
-                    <div  className = {styles.galleryImage} onClick = {()=> setCurrentVideo(0)}><Image alt = 'The Whistle' src = {vid0} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(0)}><Image alt = 'The Whistle' src = {vid0} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(1)}><Image alt = 'Find dad in Samman-ri' src = {vid1} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(2)}><Image alt = 'Day and Night of District' src = {vid2} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(3)}><Image alt = 'This Beauty Deserves a More Dramatic Song' src = {vid3} width = {2667} height = {1775}/></div>
@@ -46,6 +54,10 @@ export default function Gallery(){
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(8)}><Image alt = 'WE ARE THE WORLD [short edit]' src = {vid8} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(9)}><Image alt = 'Approach 11.0' src = {vid9} width = {2667} height = {1775}/></div>
                     <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(10)}><Image alt = 'Crossing Tides' src = {vid10} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(11)}><Image alt = 'Level Flight - Butterfly’s Eye' src = {vid11} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(12)}><Image alt = 'Umi no Suki' src = {vid12} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(13)}><Image alt = 'Landscape Sketch' src = {vid13} width = {2667} height = {1775}/></div>
+                    <div  className = {styles.galleryImage} onClick = {()=>setCurrentVideo(14)}><Image alt = 'Removed Landscape' src = {vid14} width = {2667} height = {1775}/></div>
                 </div>
             </div>
             <div className = {styles.vidGallery}>
@@ -97,6 +109,18 @@ export default function Gallery(){
                     }
                     {
                         currentVideo === 10 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/LNgfjtxZJW0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 11 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/wdHLA4PqHno" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 12 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/7i8nrbog7bg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 13 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/dFcu2d1JS0Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    }
+                    {
+                        currentVideo === 14 && <iframe className = {styles.vidIFrame} src="https://www.youtube.com/embed/kbVXKrStE3I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     }
                 </div>
                 <div className = {styles.vidTextContainer}>
